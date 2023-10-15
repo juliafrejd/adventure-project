@@ -46,6 +46,7 @@ footer small {
 }
 .navbar .nav-links ul li:not(:last-child) {
   margin-right: 45px;
+  padding: 0 20px;
 }
 .navbar .nav-links ul li.active a {
   font-weight: 700;
@@ -58,7 +59,13 @@ footer small {
   color: white;
   font-size: 30px;
 }
-
+.hero-container {
+  padding: 400px 100px 0 130px;
+}
+.hero-container h1 {
+  font-size: 62px;
+  color: white;
+}
 @media screen and (max-width: 902px) {
   .navbar {
     margin: 0;
